@@ -1,0 +1,15 @@
+baseurl = "http://ulric.cn"
+languageCode = "zh-cn"
+title = "Ulric Qin"
+theme = "hyde"
+
+[Taxonomies]
+    tag = "tags"
+
+[params]
+    twitter = "https://twitter.com/UlricQin"
+    github = "https://github.com/UlricQin"
+    weibo = "http://weibo.com/ulricqin"
+    disqus = "ulricqin"
+
+
