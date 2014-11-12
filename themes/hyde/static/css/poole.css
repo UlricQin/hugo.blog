@@ -416,7 +416,7 @@ ul.catlist li:last-child:after { content: ""; }
 }
 
 #page {
-  font-family: Monaco, Verdana, Arial, Microsoft YaHei, sans-serif;
+  font-family: Verdana, Arial, Microsoft YaHei, sans-serif;
 }
 
 hr {
