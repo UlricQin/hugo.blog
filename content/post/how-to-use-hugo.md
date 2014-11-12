@@ -2,7 +2,7 @@
 date = "2014-11-11T17:15:00+08:00"
 draft = false
 title = "使用Hugo搭建免费个人Blog"
-tags = ["Hugo", "Golang"]
+tags = ["hugo", "golang"]
 +++
 
 # Hugo是什么

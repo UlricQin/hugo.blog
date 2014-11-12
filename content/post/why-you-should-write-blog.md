@@ -1,5 +1,5 @@
 +++
-tags = ["Blog", "Interview"]
+tags = ["blog", "interview"]
 date = "2014-11-12T10:47:34+08:00"
 menu = "main"
 draft = false
