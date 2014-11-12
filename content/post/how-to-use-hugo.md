@@ -29,7 +29,7 @@ Hugo的官网是[gohugo.io](http://gohugo.io/)，里边有个Docs，大家可以
 
 ## 修改hugo.blog
 
-一行代码就跑起来了，是不是so easy，接下来笔者大体介绍一些各个目录中的作用，读者可以修改成自己的一些信息
+一行代码就跑起来了，是不是so easy，接下来笔者大体介绍一下各个目录中的作用，读者可以修改成自己的一些信息
 
 content目录就是存放你原始markdown文本的地方，content的子目录和markdown文件名组成了url地址，比如这篇文章的url是：http://ulricqin.com/post/how-to-use-hugo/ ，那是因为content目录下有个post/how-to-use-hugo.md
 

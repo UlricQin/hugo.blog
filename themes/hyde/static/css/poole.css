@@ -436,3 +436,28 @@ hr {
 .fr {
     float: right !important;
 }
+
+#tags {
+    padding-left: 0;
+}
+#tags li {
+    border-radius: 3px;
+    background: #95a5a6;
+    display: inline-block;
+    margin: 0 0px 0 5px;
+    line-height: 1;
+    padding: 4px;
+}
+#tags li:hover {
+    background: #3498db;
+}
+#tags li a {
+    color: #FFF;
+}
+#tags li a:hover {
+    text-decoration: none;
+}
+#tags li a:before {
+    content: "#";
+}
+
