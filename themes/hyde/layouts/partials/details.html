@@ -9,9 +9,9 @@
 
 <div>
     <section id="prev">
-        &nbsp;{{if .Prev}}<a class="previous" href="{{.Prev.Permalink}}">&lt; {{.Prev.Title}}</a><br>{{end}}
+        &nbsp;{{if .Prev}}<a class="previous" href="{{.Prev.Permalink}}">上一篇：{{.Prev.Title}}</a><br>{{end}}
     </section><section id="next">
-        &nbsp;{{if .Next}}<a class="next" href="{{.Next.Permalink}}">{{.Next.Title}} &gt;</a>{{end}}
+        &nbsp;{{if .Next}}<a class="next" href="{{.Next.Permalink}}">下一篇：{{.Next.Title}}</a>{{end}}
     </section>
 </div>
 

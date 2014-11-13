@@ -1,6 +1,4 @@
 +++
-Description = ""
-Tags = ["Development", "golang"]
-Categories = ["Development", "GoLang"]
+tags = ["gobyexample", "golang"]
 menu = "main"
 +++

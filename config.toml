@@ -8,5 +8,6 @@ theme = "hyde"
 
 [params]
     disqus = "ulricqin"
+    abc = "Talk is cheap. Show me the code."
 
 
