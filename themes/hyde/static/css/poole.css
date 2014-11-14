@@ -461,3 +461,16 @@ hr {
     content: "#";
 }
 
+#main div {
+  word-wrap: break-word;
+}
+
+#list {
+  list-style: none;
+}
+
+#list li a {
+  padding-left: 0;
+  padding-bottom: 5px;
+}
+
