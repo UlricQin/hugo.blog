@@ -20,7 +20,7 @@ paginator.go中引用了core.a，但是golang的版本不同
 
 	rm -rf $GOPATH/pkg
 
-但是我这么做了之后仍然没有解决，查了以下发现是这个原因：
+但是我这么做了之后仍然没有解决，查了一下发现是这个原因：
 
 我的机器上有两个golang目录，一个是1.3.1，一个是1.3.3，当时，我开着Sublime Text，安装了GoSublime插件，这个插件会即时编译golang代码，而GoSublime配置的GOROOT是1.3.1的golang目录，我在命令行下 `go env` 发现用到的是1.3.3的golang
 
