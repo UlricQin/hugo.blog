@@ -474,3 +474,7 @@ hr {
   padding-bottom: 5px;
 }
 
+code {
+  color: green;
+  font-family: Consolas, Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, monospace;
+}
