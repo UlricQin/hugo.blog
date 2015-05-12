@@ -65,9 +65,9 @@ java的软件其实蛮好的，下载了解压缩就可以用，tomcat也不例�
 
 我的做法是：干掉webapps目录的所有内容，修改conf/server.xml
 
-把URIEncoding配置到Connector上，防止乱码，端口也可以根据系统占用情况灵活分配，此处我用的8081
+把URIEncoding配置到Connector上，防止乱码，端口也可以根据系统占用情况灵活分配，此处我用的9090
 
-    <Connector port="8081" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" URIEncoding="UTF-8" />
+    <Connector port="9090" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" URIEncoding="UTF-8" />
 
 然后去配置文件最下面找到`<Host>`标签，在里边增加`<Context>`标签
 
