@@ -65,7 +65,7 @@ java的软件其实蛮好的，下载了解压缩就可以用，tomcat也不例�
 
 我的做法是：干掉webapps目录的所有内容，修改conf/server.xml
 
-把URIEncoding配置到Connector上，防止乱码，端口也可以根据系统占用情况灵活分配，此处我用的8080
+把URIEncoding配置到Connector上，防止乱码，端口也可以根据系统占用情况灵活分配，此处使用默认的8080
 
     <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" URIEncoding="UTF-8" />
 
@@ -85,7 +85,7 @@ java的软件其实蛮好的，下载了解压缩就可以用，tomcat也不例�
 - canRegister取值true或者false，以此控制是否开放注册功能，如果配置成false，不开放注册，需要使用schema.sql中初始化的root账号登陆，然后创建普通用户账号
 - token 因为UIC保存了很多用户信息，有些接口不是谁都可以访问的，用token做了一个简单限制，这是一个随机字符串，我们之后介绍的PaaS Builder和Dashboard也都需要配置相同的token才可以
 
-6、成了，启动tomcat
+6、成了，启动tomcat即可
 
 # 二次开发
 
