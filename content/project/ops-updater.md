@@ -119,8 +119,8 @@ mv cfg.example.json cfg.json
 cd ~/ops
 mkdir -p tarball/falcon
 cd tarball/falcon
-wget http://7xiumq.com1.z0.glb.clouddn.com/open-falcon-agent-demo-3.1.3.tar.gz
-md5sum open-falcon-agent-demo-3.1.3.tar.gz > open-falcon-agent-demo-3.1.3.tar.gz.md5
+wget http://7xiumq.com1.z0.glb.clouddn.com/open-falcon-agent-demo-3.1.3.tar.gz -O open-falcon-agent-3.1.3.tar.gz
+md5sum open-falcon-agent-3.1.3.tar.gz > open-falcon-agent-3.1.3.tar.gz.md5
 ```
 
 OK，做完以上工作之后ops-meta就准备好了，她托管了一个falcon-agent，静待ops-updater来下载
