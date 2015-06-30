@@ -161,3 +161,17 @@ curl http://127.0.0.1:2000/status/json/falcon-agent
 ```
 
 就这么多了，有问题可以加入我们的QQ群：373249123讨论，我会给解答滴：）
+
+# 补充
+
+这个项目只有两个模块，均是用Go语言编写的，我录制了一个视频放在极客学院讲解这个项目是如何一步一步做出来的，推荐Go语言学习者看一下
+
+- http://www.jikexueyuan.com/course/1336.html
+- http://www.jikexueyuan.com/course/1357.html
+- http://www.jikexueyuan.com/course/1462.html
+- http://www.jikexueyuan.com/course/1490.html
+
+如果从中学到了知识，小小打赏一下吧：）
+
+
+
